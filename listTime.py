@@ -40,4 +40,4 @@ t4 = Timer("test4()", "from __main__ import test4")
 st4 = t4.timeit(number=expSize)
 print("list range ",st4, "milliseconds")
 
-print ('\n Worse vs. best ratio', st1/st4, '\n')
+print ('\n Worst vs. best ratio', st1/st4, '\n')
